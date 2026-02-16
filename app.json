@@ -18,6 +18,12 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
+      "manifest": {
+        "application": {
+          "usesCleartextTraffic": true
+        }
+      },
+      "package": "escom.pritam.myfirstexpoapp",
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
