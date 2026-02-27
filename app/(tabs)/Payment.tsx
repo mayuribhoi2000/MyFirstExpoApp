@@ -97,7 +97,7 @@ const PaymentScreen = () => {
         <Text style={styles.summaryText}>Order Total</Text>
         <Text style={styles.amount}>₹{totalAmount}</Text>
       </View>
-
+      
       <Text style={styles.section}>Payment Method</Text>
 
       <View style={styles.methodBox}>
