@@ -1,13 +1,13 @@
 import { useRouter } from "expo-router";
 import React from "react";
 import {
-    Dimensions,
-    Image,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  Dimensions,
+  Image,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 
 const { width } = Dimensions.get("window");
@@ -86,7 +86,7 @@ export default function ProductList() {
           <TouchableOpacity
             key={item.id}
             style={styles.card}
-            onPress={() => router.push("../Regi")}
+            onPress={() => router.push("../C5")}
             activeOpacity={0.9}
           >
             <Image source={item.image} style={styles.image} />
